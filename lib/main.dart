@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:navigator_2_demo/legacy_navigator_app.dart';
+import 'package:navigator_2_demo/mixed_navigator_app.dart';
 import 'package:navigator_2_demo/new_navigator_app.dart';
 
 void main() {
@@ -43,15 +44,15 @@ class _AppProxyState extends State<AppProxy> {
                 child: Text('Navigator 2.0 Mode'),
               ),
               SizedBox(
-                height: 32,
+                height: 8,
               ),
               ElevatedButton(
                 onPressed: () {
                   setState(() {
-                    _app = NewNavigatorApp();
+                    _app = MixedNavigatorApp();
                   });
                 },
-                child: Text('Navigator 2.0 Mode'),
+                child: Text('Mixed Mode'),
               ),
             ],
           ),

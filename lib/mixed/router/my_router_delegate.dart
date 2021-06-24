@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:navigator_2_demo/new/second_page.dart';
-import 'package:navigator_2_demo/new/first_page.dart';
-import 'package:navigator_2_demo/new/router/my_route_config.dart';
+import 'package:navigator_2_demo/mixed/second_page.dart';
+import 'package:navigator_2_demo/mixed/first_page.dart';
+import 'package:navigator_2_demo/mixed/router/my_route_config.dart';
 
 class MyRouterDelegate extends RouterDelegate<MyRouteConfig>
     with ChangeNotifier, PopNavigatorRouterDelegateMixin<MyRouteConfig> {
